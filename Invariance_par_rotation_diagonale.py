@@ -1,7 +1,7 @@
 from scipy.stats import special_ortho_group
 from copy import deepcopy
 import matplotlib.pyplot as plt
-import  numpy as np
+import numpy as np
 
 #Fixation de l'échantillon pour pouvoir reproduire les résultats
 np.random.seed(4)
