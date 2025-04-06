@@ -36,6 +36,5 @@ plt.hist(liste_vide_mat_originale, density=True, bins=50, color='blue', alpha=0.
 plt.hist(liste_vide_mat_rotation, density=True, bins=50, color='red', alpha=0.5, label='Matrice transformée')
 plt.plot(t, 1/(np.sqrt(1/N)*np.sqrt(2*np.pi))*np.exp(-(1/(2*(1/N))*(t**2))), color='green', label=f'$f(t)=\\frac{{1}}{{\\sqrt{{1/{N}}}\\sqrt{{2\\pi}}}}e^{{-\\frac{{1}}{{2(1/{N})}}t^2}}$')
 plt.legend(loc='upper right')
-plt.title(f"Répartition des valeurs prises par l'entrée 3,5 \n des matrices de dimensions {N} $\\times$ {N}")
 plt.xlabel('$t$')
 plt.show()
